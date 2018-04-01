@@ -8,4 +8,5 @@ This is extremely useful in tests, where one needs to modify server behavior bet
 - [ ] Usage examples
 - [ ] Running tests
 - [ ] TravisCI / CircleCI
+- [ ] Support Error middleware
 - [ ] Add utility methods (stubOnce, history, log, ...)
