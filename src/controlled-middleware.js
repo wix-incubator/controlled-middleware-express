@@ -1,6 +1,6 @@
 const assert = require('assert');
 
-class ControlledMiddleware {
+export class ControlledMiddleware {
   _activatedMW = (req, res, next) => this._middlewareHandlerFn(req, res, next)
   _deactivatedMW = (req, res, next) => next()
   _wrapper = (req, res, next) => this._currentMW(req, res, next)
@@ -34,5 +34,3 @@ class ControlledMiddleware {
     return this._middlewareHandlerFn;
   }
 }
-
-module.exports.ControlledMiddleware = ControlledMiddleware;
