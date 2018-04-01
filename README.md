@@ -1,4 +1,4 @@
-# Controlled Middleware Express
+# Controlled Middleware Express [![Build Status](https://travis-ci.org/wix-incubator/controlled-middleware-express.svg?branch=master)](https://travis-ci.org/wix-incubator/controlled-middleware-express)
 
 Is a utility to activate, deactivate and replace Express middleware at runtime.
 
