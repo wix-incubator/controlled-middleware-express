@@ -7,6 +7,6 @@ This is extremely useful in tests, where one needs to modify server behavior bet
 #### TODOS:
 - [ ] Usage examples
 - [ ] Running tests
-- [ ] TravisCI / CircleCI
+- [x] TravisCI
 - [ ] Support Error middleware
 - [ ] Add utility methods (stubOnce, history, log, ...)
