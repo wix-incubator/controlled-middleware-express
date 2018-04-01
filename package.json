@@ -1,7 +1,7 @@
 {
   "name": "controlled-middleware-express",
   "version": "1.0.0",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "author": {
     "name": "Dima Ryskin",
     "email": "dimar@wix.com"
