@@ -10,3 +10,4 @@ This is extremely useful in tests, where one needs to modify server behavior bet
 - [x] TravisCI
 - [ ] Support Error middleware
 - [ ] Add utility methods (stubOnce, history, log, ...)
+- [ ] Support execution flows (accept an array of handlers and execute the next every request)
