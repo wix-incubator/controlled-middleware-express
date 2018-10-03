@@ -107,9 +107,10 @@ describe('Controlled Middleware Express', () => {
           cm.deactivate();
         })
         .then(() =>
-          driver.get('/something-to-deactivate')
+          driver.get('/something-to-deactivate'))
         .then(res =>
-          expect(res.statusCode).to.be.equals(404)));
+          expect(res.statusCode).to.be.equals(404)
+        );
     });
   });
 });
